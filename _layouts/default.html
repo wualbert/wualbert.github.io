@@ -51,7 +51,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile.png">
             </td>
           </tr>
         </table>
@@ -232,6 +232,9 @@
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
