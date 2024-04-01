@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Inertial Wheel Pendulum"
+date:   2018-05-17 12:00:00 -05:00
+image: /images/.jpg
+categories: MIT
+course: "6.115"
+author: "Albert Wu"
+subtitle: "An inertial wheel pendulum"
+youtube: "https://www.youtube.com/watch?v=wUpdPUzgCIE"
+---
+I made an intertial wheel pendulum for [MIT 6.115 Microcomputer Project Lab](https://web.mit.edu/6.115/www/). This is a system inspired by 

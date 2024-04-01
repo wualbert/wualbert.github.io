@@ -32,25 +32,26 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Leonid Keselman
+                Albert Wu
               </h1>
-              <p>I am a PhD student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a>, part of the <a href="https://www.scs.cmu.edu/">School of Computer Science</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, where I work on 3D computer vision. My PhD advisor is <a href="http://www.cs.cmu.edu/~hebert/">Martial Hebert</a>.
+              <p>
+                I am a 4th year Ph.D. student at the <a href="https://www.cs.stanford.edu/">Computer Science Department</a> of <a href="https://www.stanford.edu/">Stanford University</a>.
+                I study robotic manipulation at <a href="https://tml.stanford.edu/">The Movement Lab</a>.
+                My advisor is <a href="https://profiles.stanford.edu/c-karen-liu">C. Karen Liu</a>.
               </p>
               <p>
-                From 2011 to 2017, I worked at <a href="https://www.intel.com">Intel</a>, as part of <a href="https://www.intelrealsense.com/">Intel RealSense</a>. I primarily designed computer vision algorithms for efficient hardware ASICs, including the Intel RealSense <a href="https://software.intel.com/en-us/articles/realsense-r200-camera">R200</a> and <a href="https://software.intel.com/en-us/realsense/d400">D400</a> RGB-D sensors. Additionally, I worked on <a href="https://github.com/IntelRealSense/librealsense">software APIs</a>, <a href="https://patents.google.com/patent/US9992474B2">active illumination systems</a>, <a href="https://patents.google.com/patent/US9304597">human-computer interaction devices</a>, and helped develop demos for trade shows, including CES 2012-2016.
-              </p>
-              <p>
-                I have an MS in Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab.
+                I received my B.S. and M.Eng. from <a href="https://www.eecs.mit.edu/">MIT EECS</a> advised by <a href="https://groups.csail.mit.edu/locomotion/russt.html">Russ Tedrake</a>.
+                I also worked as an undergraduate researcher in <a href="https://www.media.mit.edu/people/hherr/overview/">Hugh Herr's</a> lab.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/leonidk">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=GCYG4GoAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/lkeselman"> LinkedIn </a>
+                <!-- <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp; -->
+                <a href="https://github.com/wualbert">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=xaFg_NUAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.youtube.com/@wu.albert"> YouTube </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/.jpg">
             </td>
           </tr>
         </table>
@@ -60,7 +61,8 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
+                My research interst inclodes robotic manipulation, motion planning, and control.
+                I seek to develop robust and data-efficient motion planners for contact-rich systems through fusing physical models and learning methods.
               </p>
             </td>
           </tr>
@@ -111,7 +113,7 @@
           {% endfor %}
           {% endfor %}
         </table>
-        <br>
+        <!-- <br>
         <br>
         <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -177,7 +179,7 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-        </table>
+        </table> -->
         <br>
         <br>
         <br>
@@ -204,7 +206,7 @@
               <br>
               <em>{{post.categories}} {{post.course}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{ post.date | date: "%Y-%m" }}
 
               <br>
               {% if post.website %}
@@ -237,6 +239,9 @@
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
@@ -245,13 +250,12 @@
           {% endfor %}
           {% endfor %}
         </table>
-
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+                Website design and source code from <a style="font-size:small;" href="https://leonidkeselman.com">Leonid Keselman</a> and <a style="font-size:small;" href="https://jonbarron.info">Jon Barron</a>.
               </p>
             </td>
           </tr>
