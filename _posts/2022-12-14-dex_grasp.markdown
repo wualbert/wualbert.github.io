@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Learning diverse and physically feasible dexterous grasps with generative model and bilevel optimization"
-date:   2022-12-14 00:00:00 +13:00
+date:   2022-12-14 12:00:00 +13:00
 image: /images/dex_grasp.png
 categories: research
-author:
 authors: "<strong>Albert Wu</strong>, Michelle Guo, C. Karen Liu "
 venue: "Conference on Robot Learning (CoRL)"
 arxiv: https://arxiv.org/abs/2207.00195
-code: 
+paper: https://proceedings.mlr.press/v205/wu23b.html
+code: https://github.com/Stanford-TML/dex_grasp
 youtube: https://youtu.be/9DTrImbN99I?feature=shared
 ---
 We use a generative model and a bilevel optimization to plan diverse grasp configurations on novel objects for a 4-fingered robotic hand. Our method achieved 86.7% real-world success rate on 20 household objects with unseen and challenging shape.
