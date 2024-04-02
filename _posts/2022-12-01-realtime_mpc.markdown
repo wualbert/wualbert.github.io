@@ -6,6 +6,7 @@ image: /images/realtime_mpc.jpg
 categories: research
 authors: "Sirui Chen, Keenon Werling, <strong>Albert Wu</strong>, C. Karen Liu"
 venue: "IEEE Robotics and Automation Letters (RA-L)"
+arxiv: https://arxiv.org/abs/2202.09834
 paper: https://ieeexplore.ieee.org/abstract/document/9968092
 code: 
 youtube:
