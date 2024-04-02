@@ -4,7 +4,7 @@ title:  "An autonomous exoskeleton for ankle plantarflexion assistance"
 date:   2019-05-20 12:00:00 -05:00
 image: /images/ankle_exo.jpg
 categories: research
-authors: "<strong>Albert Wu</strong>, Xingbang Yang, Jiun-Yih Kuan, Hugh M Herr"
+authors: "<strong>Albert Wu</strong>*, Xingbang Yang*, Jiun-Yih Kuan, Hugh M Herr<br>*Equal contribution"
 venue: "International Conference on Robotics and Automation (ICRA)"
 paper: https://ieeexplore.ieee.org/abstract/document/8793913
 youtube:
