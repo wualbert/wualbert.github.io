@@ -39,6 +39,14 @@ Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Ma
 
 > See default.html line 212 for available tags.
 
+## Local Development (from Jekyll Now)
+
+1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
+2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
+3. Serve the site and watch for markup/sass changes `jekyll serve`
+4. View your website at http://127.0.0.1:4000/
+5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+
 ## Image thumbnail generation
 I use thumbnails, so I can upload arbitrary sized images but then only display small ones. The `_make_thumbnails.sh` script generates them and the html template looks in `tn/` for all images.
 Note that the script depends on `convert` from ImageMagick. If you're on MacOS, run
