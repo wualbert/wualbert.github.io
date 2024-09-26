@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Venue Analytics: A Simple Alternative to Citation-Based Metrics"
-date:   2019-06-04 22:21:59 +00:00
-image: /images/jcdl2019.png
+title:  "One-Shot Transfer of Long-Horizon Extrinsic Manipulation Through Contact Retargeting"
+date:   2024-04-11 12:00:00 -07:00
+image: /images/extrinsic_manip.png
 categories: research
-authors: "<strong>Leonid Keselman</strong>"
-venue: "ACM/IEEE Joint Conference on Digital Libraries"
-arxiv: https://arxiv.org/abs/1904.12573
-slides: /pdfs/jcdl2019.pdf
-code: https://github.com/leonidk/venue_scores
-website: https://leonidk.github.io/venue_scores/
+authors: "<strong>Albert Wu</strong>, Ruocheng Wang, Sirui Chen, Clemens Eppner, C. Karen Liu"
+venue: "International Conference on Intelligent Robots and Systems (IROS)"
+presentation: "Oral presentation"
+arxiv: https://arxiv.org/abs/2404.07468
+code: https://github.com/Stanford-TML/extrinsic_manipulation
+website: https://stanford-tml.github.io/extrinsic-manipulation/
+youtube: https://youtu.be/K3iu3qO02m4?feature=shared
 ---
-A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
+The use of environment contacts enables manipulation strategies that are otherwise impossible with a parallel jaw gripper. We propose to generalize one extrinsic manipulation trajectory to diverse objects and environments by retargeting contact requirements. Using a 7+1 DoF robotic arm-gripper system, we achieved an overall success rate of 80.5% on hardware over 4 long-horizon extrinsic manipulation tasks.
