@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Leveraging Physics-Based Models To Learn Generalizable Robotic Manipulation"
+date:   2024-11-08 12:00:00 -07:00
+image: /images/physics_manipulation.png
+categories: talk
+authors:
+venue: "Stanford Robotics Semninar"
+arxiv:
+code:
+website: https://stanfordasl.github.io/robotics_seminar/
+youtube: https://youtu.be/reQt9oiYla8?feature=shared
+---
+In this talk, I explored how incorporating physical models can enable efficient learning of robust manipulation policies. I presented a series of projects that demonstrate how integrating physics priors and contact constraints into learning pipelines can facilitate the execution of sophisticated dexterous and nonprehensile tasks across a wide range of simulation and hardware environments.
