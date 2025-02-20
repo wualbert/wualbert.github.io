@@ -6,6 +6,7 @@ image: /images/bimanual_pick.png
 categories: research
 authors: "<strong>Albert Wu</strong>, Dan Kruse"
 venue: "arxiv preprint"
+accepted: "International Conference on Robotics and Automation (ICRA) 2025"
 presentation:
 arxiv: https://arxiv.org/abs/2409.15465
 youtube: https://youtu.be/g0hOrDuK8jM?feature=shared

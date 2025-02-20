@@ -52,6 +52,9 @@
               <p>
                 If you are a current Stanford student interested in working with me, please complete the <a href="https://forms.gle/bPhyfFLQbqbKAQJJ6">Movement Lab research application</a>.
               </p>
+              <p>
+                <em>Last updated: 2025-02-21</em>.
+              </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
               <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile.png">
@@ -86,6 +89,10 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
+              {% if post.accepted %}
+              Accepted to <em>{{post.accepted}}</em>
+              <br>
+              {% endif %}
               {% if post.presentation %}
               <strong>{{post.presentation}}</strong>
               <br>
