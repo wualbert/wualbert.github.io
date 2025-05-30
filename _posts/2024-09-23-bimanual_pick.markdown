@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "In the Wild Ungraspable Object Picking with Bimanual Nonprehensile Manipulation"
-date:   2024-09-23 12:00:00 -07:00
+date:   2025-05-19 12:00:00 -07:00
 image: /images/bimanual_pick.png
 categories: research
 authors: "<strong>Albert Wu</strong>, Dan Kruse"
-venue: "arxiv preprint"
-accepted: "International Conference on Robotics and Automation (ICRA) 2025"
+accepted:
+venue: "International Conference on Robotics and Automation (ICRA)"
 presentation:
 arxiv: https://arxiv.org/abs/2409.15465
 youtube: https://youtu.be/g0hOrDuK8jM?feature=shared
