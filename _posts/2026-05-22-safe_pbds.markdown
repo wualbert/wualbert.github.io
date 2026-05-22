@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Safe and Steerable Geometric Motion Policies for Robotic Dexterous Manipulation"
+date:   2026-05-22 12:00:00 -07:00
+image: /images/safe_pbds.jpg
+categories: research
+authors: "<strong>Albert Wu</strong>, Riccardo Bonalli, Thomas Lew, C. Karen Liu"
+accepted:
+venue: "arXiv preprint"
+presentation:
+arxiv: https://arxiv.org/abs/2605.21811
+website: https://tml.stanford.edu/safe-pbds
+youtube: https://youtu.be/LqaYIBM6d_c
+---
+We present SafePBDS, a motion-generation framework that computes certifiably safe joint accelerations from task space objectives, safety constraints, and action inputs. SafePBDS enables simple action policies to achieve complex manipulation tasks, including 92.5–94.4% success on four- and three-finger grasps, and the first model-based, fully actuated palm-down in-hand reorientation beyond 360° under wrist motion and varying object weights.
