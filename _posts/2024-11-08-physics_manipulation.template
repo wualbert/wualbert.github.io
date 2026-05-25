@@ -8,7 +8,7 @@ authors:
 venue: "Stanford Robotics Semninar"
 arxiv:
 code:
-website: https://stanfordasl.github.io/robotics_seminar/
+website: https://stanfordasl.github.io/robotics_seminar/archive/
 youtube: https://youtu.be/reQt9oiYla8?feature=shared
 ---
 In this talk, I explored how incorporating physical models can enable efficient learning of robust manipulation policies. I presented a series of projects that demonstrate how integrating physics priors and contact constraints into learning pipelines can facilitate the execution of sophisticated dexterous and nonprehensile tasks across a wide range of simulation and hardware environments.
