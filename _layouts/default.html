@@ -93,29 +93,30 @@
               <strong>{{post.presentation}}</strong>
               <br>
               {% endif %}
+              {% assign sep = "" %}
               {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              {{ sep }}<a href="{{post.arxiv}}">arxiv</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              {{ sep }}<a href="{{post.paper}}">paper</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              {{ sep }}<a href="{{post.video}}">video</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              {{ sep }}<a href="{{post.code}}">code</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              {{ sep }}<a href="{{post.poster}}">poster</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              {{ sep }}<a href="{{post.slides}}">slides</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              {{ sep }}<a href="{{post.website}}">website</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              {{ sep }}<a href="{{post.youtube}}">youtube</a>{% assign sep = " / " %}
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -146,41 +147,42 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y-%m-%d" }}
               <br>
+              {% assign sep = "" %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              {{ sep }}<a href="{{post.website}}">website</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              {{ sep }}<a href="{{post.paper}}">paper</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
+              {{ sep }}<a href="{{post.patent}}">patent</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
+              {{ sep }}<a href="{{post.patent2}}">patent #2</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
+              {{ sep }}<a href="{{post.patent3}}">patent #3</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              {{ sep }}<a href="{{post.video}}">video</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
+              {{ sep }}<a href="{{post.video2}}">video #2</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              {{ sep }}<a href="{{post.code}}">code</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.pdf %}
-              <a href="{{post.pdf}}">pdf</a> /
+              {{ sep }}<a href="{{post.pdf}}">pdf</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              {{ sep }}<a href="{{post.poster}}">poster</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              {{ sep }}<a href="{{post.slides}}">slides</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              {{ sep }}<a href="{{post.youtube}}">youtube</a>{% assign sep = " / " %}
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -216,41 +218,42 @@
               {{ post.date | date: "%Y-%m" }}
 
               <br>
+              {% assign sep = "" %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              {{ sep }}<a href="{{post.website}}">website</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              {{ sep }}<a href="{{post.paper}}">paper</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
+              {{ sep }}<a href="{{post.patent}}">patent</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
+              {{ sep }}<a href="{{post.patent2}}">patent #2</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
+              {{ sep }}<a href="{{post.patent3}}">patent #3</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              {{ sep }}<a href="{{post.video}}">video</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
+              {{ sep }}<a href="{{post.video2}}">video #2</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              {{ sep }}<a href="{{post.code}}">code</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.pdf %}
-              <a href="{{post.pdf}}">pdf</a> /
+              {{ sep }}<a href="{{post.pdf}}">pdf</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              {{ sep }}<a href="{{post.poster}}">poster</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              {{ sep }}<a href="{{post.slides}}">slides</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              {{ sep }}<a href="{{post.youtube}}">youtube</a>{% assign sep = " / " %}
               {% endif %}
               <p></p>
               {{ post.excerpt }}
