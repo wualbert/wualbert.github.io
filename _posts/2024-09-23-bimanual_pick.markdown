@@ -9,6 +9,7 @@ accepted:
 venue: "International Conference on Robotics and Automation (ICRA)"
 presentation:
 arxiv: https://arxiv.org/abs/2409.15465
+paper: https://ieeexplore.ieee.org/document/11128490
 youtube: https://youtu.be/g0hOrDuK8jM?feature=shared
 ---
 We developed a method to retrieve grocery items that are difficult to grasp using traditional suction and parallel grippers. Through extensive testing in a replica store and a real-world grocery store, our mobile manipulator demonstrated high success rates in retrieving diverse ungraspable items from cluttered shelves.

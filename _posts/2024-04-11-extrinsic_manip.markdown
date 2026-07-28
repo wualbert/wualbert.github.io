@@ -8,6 +8,7 @@ authors: "<strong>Albert Wu</strong>, Ruocheng Wang, Sirui Chen, Clemens Eppner,
 venue: "International Conference on Intelligent Robots and Systems (IROS)"
 presentation: "Oral presentation"
 arxiv: https://arxiv.org/abs/2404.07468
+paper: https://ieeexplore.ieee.org/document/10801356
 code: https://github.com/Stanford-TML/extrinsic_manipulation
 website: https://stanford-tml.github.io/extrinsic-manipulation/
 youtube: https://youtu.be/K3iu3qO02m4?feature=shared

@@ -35,22 +35,22 @@
                 Albert Wu
               </h1>
               <p>
-                I am a 6th year Ph.D. candidate at the <a href="https://www.cs.stanford.edu/">Computer Science Department</a> of <a href="https://www.stanford.edu/">Stanford University</a>.
-                I study robotic manipulation at <a href="https://tml.stanford.edu/">The Movement Lab</a>.
-                My advisor is <a href="https://profiles.stanford.edu/c-karen-liu">C. Karen Liu</a>.
+                I am a Postdoctoral Research Associate at the <a href="http://www.bipedalrobotics.com/">AMBER Lab</a> of the California Institute of Technology. I am supervised by <a href="http://ames.caltech.edu/">Prof. Aaron D. Ames</a>. <strong>My research explores the intersection of mathematical structures, physics-based modeling, and machine learning to develop generalizable algorithms for real-world robotic manipulation.</strong>
               </p>
               <p>
-                I received my B.S. and M.Eng. from <a href="https://www.eecs.mit.edu/">MIT EECS</a> advised by <a href="https://groups.csail.mit.edu/locomotion/russt.html">Russ Tedrake</a>.
-                I also worked as an undergraduate researcher in <a href="https://www.media.mit.edu/people/hherr/overview/">Hugh Herr's</a> lab.
+                I received my Ph.D. from the <a href="https://www.cs.stanford.edu/">Computer Science Department</a> at <a href="https://www.stanford.edu/">Stanford University</a>. I was advised by <a href="https://profiles.stanford.edu/c-karen-liu">Prof. C. Karen Liu</a>. My thesis, "Unifying Physics and Learning for Generalizable Robotic Manipulation," is available <a href="https://searchworks.stanford.edu/view/in00001200289">here</a>.
+              </p>
+              <p>
+                Before Stanford, I received my B.S. and M.Eng. from the <a href="https://www.eecs.mit.edu/">Electrical Engineering and Computer Science Department</a> at the <a href="https://www.mit.edu/">Massachusetts Institute of Technology</a>, where I was advised by <a href="https://groups.csail.mit.edu/locomotion/russt.html">Prof. Russ Tedrake</a>. My M.Eng. thesis is available <a href="https://dspace.mit.edu/entities/publication/2eaf1cff-0c93-49b0-bb2b-8f0c9f9552a3">here</a>. I also worked as an undergraduate researcher in <a href="https://www.media.mit.edu/people/hherr/overview/">Prof. Hugh Herr's</a> lab.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/eFAoDtHz"> Email</a> &nbsp;/&nbsp;
+                <a target="_blank" href="{{ site.footer-links.email }}"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/wualbert">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=xaFg_NUAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://www.youtube.com/@wu.albert"> YouTube </a>
               </p>
               <p>
-                <em>Last updated: 2026-05-22</em>.
+                <em>Last updated: 2026-07-28</em>.
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -94,11 +94,11 @@
               <br>
               {% endif %}
               {% assign sep = "" %}
-              {% if post.arxiv %}
-              {{ sep }}<a href="{{post.arxiv}}">arxiv</a>{% assign sep = " / " %}
-              {% endif %}
               {% if post.paper %}
               {{ sep }}<a href="{{post.paper}}">paper</a>{% assign sep = " / " %}
+              {% endif %}
+              {% if post.arxiv %}
+              {{ sep }}<a href="{{post.arxiv}}">arxiv</a>{% assign sep = " / " %}
               {% endif %}
               {% if post.video %}
               {{ sep }}<a href="{{post.video}}">video</a>{% assign sep = " / " %}
