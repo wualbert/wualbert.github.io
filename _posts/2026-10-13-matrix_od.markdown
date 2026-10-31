@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Optimal Decay Matrix Control Barrier Functions: Soundness and Completeness for Matrix Safety Constraints"
+date:   2026-10-13 12:00:00 -07:00
+image: /images/matrix_od.png
+categories: research
+authors: "Samuel G. Gessow, <strong>Albert Wu</strong>, Aaron D. Ames, Brett T. Lopez"
+accepted:
+venue: "arXiv preprint"
+presentation:
+arxiv: https://arxiv.org/abs/2610.18675
+---
+Many safety requirements, such as avoiding kinematic singularities, amount to keeping a state-dependent matrix positive definite. Rather than hand-tuning how fast the safety margin may decay, we propose matrix optimal decay (MOD), which optimizes the decay jointly with the control. MOD is provably sound and complete at the safety boundary. On a planar two-link arm, MOD certifies singularity-avoiding motions that existing methods reject, tracking end-effector targets as closely as safety allows.
