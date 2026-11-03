@@ -9,5 +9,6 @@ accepted:
 venue: "arXiv preprint"
 presentation:
 arxiv: https://arxiv.org/abs/2610.18675
+code: https://github.com/vectr-ucla/mod_mcbf
 ---
 Many safety requirements, such as avoiding kinematic singularities, amount to keeping a state-dependent matrix positive definite. Rather than hand-tuning how fast the safety margin may decay, we propose matrix optimal decay (MOD), which optimizes the decay jointly with the control. MOD is provably sound and complete at the safety boundary. On a planar two-link arm, MOD certifies singularity-avoiding motions that existing methods reject, tracking end-effector targets as closely as safety allows.
